@@ -2,8 +2,8 @@ import React from 'react';
 
 const Message = ({ message }) => {
     return (
-        <div>
-            {message.text}
+        <div className="message">
+            <strong>{message.user}:</strong> {message.text}
         </div>
     );
 }
